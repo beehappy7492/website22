@@ -8,8 +8,8 @@
 <body>
     <h2>Remove Caravan Listing</h2>
     <form action="remove_listing_process.php" method="post">
-        <label for="listing_id">Listing ID:</label><br>
-        <input type="number" id="listing_id" name="listing_id" required><br>
+        <label for="vehicle_id">Vehicle ID:</label><br>
+        <input type="number" id="vehicle_id" name="vehicle_id" required><br>
         
         <button type="submit">Remove Listing</button>
     </form>
